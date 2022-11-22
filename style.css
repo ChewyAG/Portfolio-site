@@ -3,17 +3,46 @@
 }
 
 #intro {
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 20px;
+    font-weight: bold;
 }
 
 li {
-    font-weight: bold;
+    font-style: italic;
+    font-weight: 300;
     list-style: square;
+}
+
+#html {
+    word-spacing: 80px;
+}
+
+#css {
+    word-spacing: 90px;
+}
+
+#js {
+    word-spacing: 25px;
+}
+
+#bs {
+    word-spacing: 25px;
 }
 
 a {
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+}
+
+#contact a {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    margin-left: 3px;
+    color: black;
 }
