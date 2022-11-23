@@ -2,38 +2,54 @@
     font-family: 'Rubik', sans-serif;
 }
 
+#cont-2 {
+    font-size: 1.5rem;
+}
+
 #intro {
     margin-top: 15%;
-    font-size: 20px;
     font-weight: bold;
+    border-bottom: 2px solid darkgoldenrod;
 }
 
 li {
     font-style: italic;
-    font-weight: 300;
+    font-weight: 200;
     list-style: square;
 }
 
+#skills {
+    font-style: italic;
+    font-weight: 200;
+}
+
 #html {
-    word-spacing: 80px;
+    word-spacing: 5.2rem;
 }
 
 #css {
-    word-spacing: 90px;
+    word-spacing: 5.9rem;
 }
 
 #js {
-    word-spacing: 25px;
+    word-spacing: 0.9rem;
 }
 
 #bs {
-    word-spacing: 25px;
+    word-spacing: 0.9rem;
 }
 
 a {
     font-weight: bold;
-    font-size: 20px;
     text-decoration: none;
+}
+
+.card.mx-3 {
+    background-color: white;
+}
+
+#cont-4 {
+    font-size: 1.2rem;
 }
 
 #contact a {
