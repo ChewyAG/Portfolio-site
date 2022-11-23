@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Aaron Grant - Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -16,11 +16,10 @@
 
 <body class="bg-warning">
     <header>
-        <div class="container">
+        <div class="container" id="cont-1">
             <div class="row mt-5" id="hello">
                 <div class="col-3">
-                    <h1 class="display-6">Hello.
-                    </h1>
+                    <h1 class="display-6">Hello.</h1>
                 </div>
                 <div class="col-3">
                     <h1 class="display-4">Hey.</h1>
@@ -30,36 +29,54 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" id="cont-2">
             <div class="row justify-content-center" id="intro">
                 <div class="col">
-                    <p>
-                        I'm Aaron, a self-starter in the web development world.
+                    <p>I'm Aaron, a self-starter in the web development world.</p>
+                    <p><span id="skills">Technical Skills:</span>
+                        <li id="html">HTML (Competent)</li>
+                        <li id="css">CSS (Competent)</li>
+                        <li id="js">Javascript (Beginner)</li>
+                        <li id="bs">Bootstrap (Beginner)</li>
                     </p>
-                    <p>
-                        Technical Skills:
-                        <li>HTML - Competent</li>
-                        <li>CSS - Competent</li>
-                        <li>Javascript - Beginner</li>
-                        <li>Bootstrap - Beginner</li>
-                    </p>
-                    <p>
-                        Currently studying via a Udemy course to gain further knowledge of web development.
-                    </p>
+                    <p>Currently studying via a Udemy course to gain further knowledge of web development.</p>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" id="cont-3">
+            <div class="row mt-4" id="portfolio">
+                <h1 class="display-6 mb-4">Portfolio</h1>
+                <div class="card mx-3" id="wessex-card" style="width: 24rem;">
+                    <img class="card-img-top mt-2" src="imgs/WDS.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title border-bottom border-secondary pb-2">Wessex Demolition & Salvage Ltd</h5>
+                      <p class="card-text">Built & maintained the website, whilst working directly for the company.</p>
+                      <a href="https://www.wessexdemolition.co.uk" class="btn btn-secondary">See the website!</a>
+                    </div>
+                  </div>
+                  <div class="card mx-3" id="imnothere-card" style="width: 24rem;">
+                    <img class="card-img-top mt-2" src="imgs/imnotheredoc.PNG" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title border-bottom border-secondary pb-2">I'm Not Here Documentary</h5>
+                      <p class="card-text">Collaborated with a friend to build a website for a self-released documentary film.</p>
+                      <a href="https://imnotheredoc.com" class="btn btn-secondary">See the website!</a>
+                    </div>
+                  </div>
+                  <div class="card mx-3" id="wessex-card-2" style="width: 24rem;">
+                    <img class="card-img-top mt-2" src="imgs/WDS-2.PNG" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title border-bottom border-secondary pb-2">Wessex Demolition & Salvage Ltd</h5>
+                      <p class="card-text">IN PROGRESS - Developing a responsive site for Wessex Demolition.</p>
+                      <a href="https://wessexdemolition.co.uk/responsive/wessex-rsp.html" class="btn btn-secondary">See the website!</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="container" id="cont-4">
             <div class="row justify-content-end mt-5">
-                <div class="col-2">
-                    <p>
-                        <a href="https://github.com/ChewyAG">GitHub</a>
-                    </p>
-                </div>
-                <div class="col-2">
-                    <p>
-                        <a href="mailto:ajgrant134@gmail.com">Contact</a>
-                    </p>
+                <div class="col-2" id="contact">
+                    <p><a href="https://github.com/ChewyAG">GitHub</a> _
+                        <a href="mailto:ajgrant134@gmail.com">Contact</a></p>
                 </div>
             </div>
         </div>
